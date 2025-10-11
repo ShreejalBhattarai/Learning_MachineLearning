@@ -1,6 +1,6 @@
 # Machine Learning Learning Journey
 
-This repository contains my code as I learn machine learning fundamentals and techniques.
+This repository contains my code as I learn machine learning and data science fundamentals and techniques.
 
 ## Structure
 

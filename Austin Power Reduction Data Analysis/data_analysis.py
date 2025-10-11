@@ -15,12 +15,9 @@ for year in years:
     df[year]=df[year].astype(float)
     totals.append(df[year].iloc[1:].sum())
 
-print(totals)
+#print(totals)
 
-# plot the combined total first
 plt.plot(years, totals, marker='o', color='black', label='Total Reduction')
-
-# plot the category trends on top
 category_trend = df.groupby("Program Type")[years].sum().T
 for col in category_trend.columns:
     plt.plot(category_trend.index, category_trend[col], marker='o', label=col)
@@ -31,6 +28,6 @@ plt.xlabel("Year")
 plt.ylabel("Reduction (MW)")
 plt.legend()
 plt.grid(True)
-plt.show()
+plt.savefig("Analysis.jpg")
 
 
