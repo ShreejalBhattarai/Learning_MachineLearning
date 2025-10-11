@@ -1,6 +1,6 @@
 # Peak Demand Reduction Data Analysis
 
-![Image of the analysis]("Austin Power Reduction Data Analysis/Analysis.jpg")
+![Image of the analysis](Analysis.jpg)
 
 ## Overview
 This project analyzes Austin Energy’s peak demand reduction programs from 2007 to 2017.
