@@ -11,5 +11,5 @@ This project analyzes Austin Energy’s peak demand reduction programs from 2007
 ## How to Run
 ```bash
 python data_analysis.py
+![Image of the analysis]("Austin Power Reduction Data Analysis/Analysis.jpg")
 
-![Image of the analysis](Analysis.jpg)
