@@ -100,6 +100,9 @@ model = load_model("resnet50_model_state_dict.pth")
 - **Console**: Per-epoch loss, classification report (precision, recall, F1)
 - **Confusion Matrix**: Heatmap of predicted vs. true labels
 - **ROC Curve**: With AUC score
+<img width="640" height="480" alt="roc_curve" src="https://github.com/user-attachments/assets/7043869f-114b-4bb8-bcb4-4cd190f41a4f" />
+<img width="800" height="600" alt="loss_curve" src="https://github.com/user-attachments/assets/a75dc559-f6ce-4ab8-b10f-9266556011b3" />
+<img width="600" height="500" alt="confusion_matrix" src="https://github.com/user-attachments/assets/840fa827-7968-4f3e-a535-9563a396259d" />
 
 ---
 
